@@ -101,8 +101,7 @@ class SafeWebview extends react.PureComponent {
     this.eventTuples = [
       [ 'did-fail-load', this.didFailLoad ],
       [ 'did-get-response-details', this.didGetResponseDetails ],
-      [ 'new-window', this.constructor.newWindow ],
-      [ 'console-message', this.constructor.consoleMessage ]
+      [ 'new-window', this.constructor.newWindow ]
     ]
 
     // Make a persistent electron session for the webview
